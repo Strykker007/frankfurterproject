@@ -32,6 +32,8 @@ class HomeRepository {
 
       conversionModel =
           CurrencieConversionModel.fromMap(response, baseFromConversion);
+      print(conversionModel);
+
       return conversionModel;
     } catch (e) {
       rethrow;
